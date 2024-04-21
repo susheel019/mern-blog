@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
        '/api':{
-        target: 'https://mern-blog-f24k.onrender.com/',
+        target: 'http://localhost:7080/',
         secure:false,
         changeOrigin: true,
     },
